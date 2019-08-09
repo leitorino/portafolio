@@ -6,7 +6,7 @@ function router(){
     return (
         <BrowserRouter>
             <Switch>
-                <Route exact path="/asd" component={Index}></Route>
+                <Route exact path="/" component={Index}></Route>
             </Switch>
         </BrowserRouter>
     );
