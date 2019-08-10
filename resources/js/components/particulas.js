@@ -1,15 +1,11 @@
 import React from 'react';
 import Particles from 'react-particles-js';
-import Footer from './footer';
-import Header from './header';
-import './styles/micss.css';
 import Yo from '../../../public/images/yop.jpg';
 
 class Particula extends React.Component {
     render() {
         return(
             <div>
-                <Header/>
                 <div className="contenedor">
                     <div className="particulas">
                     <Particles 
@@ -88,7 +84,6 @@ class Particula extends React.Component {
                         </div>
                     </div>
                 </div>
-                <Footer redes={this.props.redes} />
             </div>         
         );
     }

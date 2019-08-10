@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {Link} from 'react-router-dom';
 
 class Header extends React.Component {
 
@@ -9,31 +9,31 @@ class Header extends React.Component {
                 <hr></hr>
                 <div className="nav">
                     
-                    <a href="">
+                    <Link to="/">
                         <div className="nav-button">
                             Inicio
                         </div>
-                    </a>
-                    <a href="">
+                    </Link>
+                    <Link to="asd">
                         <div className="nav-button">
                             Sobre Mi
                         </div>
-                    </a>
-                    <a href="">
+                    </Link>
+                    <Link to="asd">
                         <div className="nav-button">
                             Proyectos
                         </div>
-                    </a>
-                    <a href="">
+                    </Link>
+                    <Link to="asd">
                         <div className="nav-button">
                             Contacto
                         </div>
-                    </a>
-                    <a href="">
+                    </Link>
+                    <Link to="asd">
                         <div className="nav-button">
                             Buscador
                         </div>
-                    </a>
+                    </Link>
                 </div>
                 
             </div>
