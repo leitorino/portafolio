@@ -6287,7 +6287,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "body{\r\n    background-color: white;\r\n}\r\n\r\n.container-position{\r\n    position: absolute;\r\n    width: 100%;\r\n    top: 7%;\r\n  }\r\n\r\n.footer{\r\n    background-color: black;\r\n    z-index: 2;\r\n    background-image: url(" + escape(__webpack_require__(/*! ../../../../public/images/fondo-footer-2.png */ "./public/images/fondo-footer-2.png")) + ");\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n    background-position-x: center;\r\n    bottom: 0%;\r\n    width: 100%;\r\n    height: 15%;\r\n    position: absolute;\r\n    color: white;\r\n    display: flex;\r\n    vertical-align: middle;\r\n    align-items: center;\r\n    text-align: center;\r\n  }\r\n\r\n  .footer .content{\r\n    margin: auto;\r\n    text-align: center;\r\n  }\r\n\r\n  .footer h1{\r\n    margin: 0;\r\n  }\r\n\r\n  .footer-social{\r\n    position: relative;\r\n    display: inline;\r\n    margin-left: 2%;\r\n    margin-right: 2%;\r\n  }\r\n\r\n  .social-icon{\r\n    width: 4%;\r\n  }\r\n\r\n  .nav{\r\n    background-color: white;\r\n    width: 100%;\r\n    text-align: center;\r\n    position: absolute;\r\n    top: 0%;\r\n    display: flex;\r\n    height: 100%;\r\n  }\r\n\r\n  .header{\r\n    position: absolute;\r\n    top: 0%;\r\n    width: 100%;\r\n    height: 7%;\r\n    z-index: 2;\r\n  }\r\n\r\n  .header hr{\r\n    bottom: 0%;\r\n    border: 0.1rem solid black;\r\n    position: absolute;\r\n    width: -webkit-fill-available;\r\n    margin: 0%;\r\n    z-index: 2;\r\n  }\r\n\r\n  .nav-button{\r\n    font-family: Roboto;\r\n    font-weight: bolder;\r\n    position: absolute;\r\n    margin-left: 25%;\r\n    margin-right: 25%;\r\n    width: 50%;\r\n    height: 50%;\r\n    top: 25%;\r\n    bottom: 25%;\r\n  }\r\n\r\n  .nav a{\r\n    color: black;\r\n    text-decoration: none;\r\n    position: relative;\r\n    width: 15%;\r\n    height: 101%;\r\n    margin-left: 2%;\r\n    margin-right: 2%;\r\n  }\r\n\r\n  .nav a:hover{\r\n    color: #C4C4C4;\r\n    border-bottom: 0.3rem solid #C4C4C4;\r\n    z-index: 3;\r\n  }", ""]);
+exports.push([module.i, ".fondo-2{\r\n    background-color: white;\r\n    position: absolute;\r\n    width: 100%;\r\n    height: 100%;\r\n}\r\n\r\n.container-position{\r\n    position: fixed;\r\n    width: 100%;\r\n    top: 7%;\r\n  }\r\n\r\n.footer{\r\n    background-color: black;\r\n    z-index: 2;\r\n    background-image: url(" + escape(__webpack_require__(/*! ../../../../public/images/fondo-footer-2.png */ "./public/images/fondo-footer-2.png")) + ");\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n    background-position-x: center;\r\n    bottom: 0%;\r\n    width: 100%;\r\n    height: 15%;\r\n    position: absolute;\r\n    color: white;\r\n    display: flex;\r\n    vertical-align: middle;\r\n    align-items: center;\r\n    text-align: center;\r\n  }\r\n\r\n  .footer .content{\r\n    margin: auto;\r\n    text-align: center;\r\n  }\r\n\r\n  .footer h1{\r\n    margin: 0;\r\n  }\r\n\r\n  .footer-social{\r\n    position: relative;\r\n    display: inline;\r\n    margin-left: 2%;\r\n    margin-right: 2%;\r\n  }\r\n\r\n  .social-icon{\r\n    width: 4%;\r\n  }\r\n\r\n  .nav{\r\n    background-color: white;\r\n    width: 100%;\r\n    text-align: center;\r\n    position: absolute;\r\n    top: 0%;\r\n    display: flex;\r\n    height: 100%;\r\n  }\r\n\r\n  .header{\r\n    position: absolute;\r\n    top: 0%;\r\n    width: 100%;\r\n    height: 7%;\r\n    z-index: 2;\r\n  }\r\n\r\n  .header hr{\r\n    bottom: 0%;\r\n    border: 0.1rem solid black;\r\n    position: absolute;\r\n    width: -webkit-fill-available;\r\n    margin: 0%;\r\n    z-index: 2;\r\n  }\r\n\r\n  .nav-button{\r\n    font-family: Roboto;\r\n    font-weight: bolder;\r\n    position: absolute;\r\n    margin-left: 25%;\r\n    margin-right: 25%;\r\n    width: 50%;\r\n    height: 50%;\r\n    top: 25%;\r\n    bottom: 25%;\r\n  }\r\n\r\n  .nav a{\r\n    color: black;\r\n    text-decoration: none;\r\n    position: relative;\r\n    width: 15%;\r\n    height: 101%;\r\n    margin-left: 2%;\r\n    margin-right: 2%;\r\n  }\r\n\r\n  .nav a:hover{\r\n    color: #C4C4C4;\r\n    border-bottom: 0.3rem solid #C4C4C4;\r\n    z-index: 3;\r\n  }\r\n\r\n  .icons-1{\r\n    width: 5%;\r\n    height: 5%;\r\n    fill: #C4C4C4;\r\n  }", ""]);
 
 // exports
 
@@ -6306,7 +6306,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "body {\r\n    margin: 0;\r\n    padding: 0;\r\n    background-color: #C4C4C4;\r\n  }\r\n\r\n  .particulas{\r\n    z-index: 1;\r\n    width: 100%;\r\n    height: 110%;\r\n  }\r\n\r\n  .titulo{\r\n    z-index: 2;\r\n    font-family: Revalia;\r\n    position: absolute;\r\n    text-align: center;\r\n    width: 100%;\r\n  }\r\n\r\n  .contenedor{\r\n    display: flex;\r\n    position: absolute;\r\n    vertical-align: middle;\r\n    align-items: center;\r\n    height: 75%;\r\n    width: 98%;\r\n  }\r\n\r\n\r\n  .image-principal{\r\n    position: absolute;\r\n    width: 60%;\r\n    left: 0%;\r\n    margin-left: 10%;\r\n    -webkit-filter: brightness(80%);\r\n            filter: brightness(80%);\r\n    box-shadow: 0px 0px 1rem 0.1rem rgba(0,0,0,0.75);\r\n    border-radius: 2%;\r\n  }\r\n\r\n  .bajada{\r\n    position: relative;\r\n    -webkit-animation-duration: 2s;\r\n            animation-duration: 2s;\r\n    -webkit-animation-name: caida;\r\n            animation-name: caida;\r\n  }\r\n\r\n  .subida{\r\n    position: relative; \r\n    -webkit-animation-duration: 2s; \r\n            animation-duration: 2s;\r\n    -webkit-animation-name: subida;\r\n            animation-name: subida;\r\n  }\r\n\r\n  @-webkit-keyframes caida {\r\n    from {\r\n      top: -100%;\r\n      height: 100%;\r\n    }\r\n  \r\n    to {\r\n      height: 180%;\r\n      top: 0%;\r\n    }\r\n  }\r\n\r\n  @keyframes caida {\r\n    from {\r\n      top: -100%;\r\n      height: 100%;\r\n    }\r\n  \r\n    to {\r\n      height: 180%;\r\n      top: 0%;\r\n    }\r\n  }\r\n\r\n  @-webkit-keyframes subida {\r\n    from {\r\n      bottom: -100%;\r\n      height: 100%;\r\n    }\r\n  \r\n    to {\r\n      height: 180%;\r\n      bottom: 0%;\r\n    }\r\n  }\r\n\r\n  @keyframes subida {\r\n    from {\r\n      bottom: -100%;\r\n      height: 100%;\r\n    }\r\n  \r\n    to {\r\n      height: 180%;\r\n      bottom: 0%;\r\n    }\r\n  }\r\n\r\n ", ""]);
+exports.push([module.i, "body {\r\n    background-color: #C4C4C4 !important;\r\n    margin: 0;\r\n    padding: 0;\r\n  }\r\n\r\n  .particulas{\r\n    z-index: 1;\r\n    width: 100%;\r\n    height: 110%;\r\n  }\r\n\r\n  .titulo{\r\n    z-index: 2;\r\n    font-family: Revalia;\r\n    position: absolute;\r\n    text-align: center;\r\n    width: 100%;\r\n  }\r\n\r\n  .contenedor{\r\n    display: flex;\r\n    position: absolute;\r\n    vertical-align: middle;\r\n    align-items: center;\r\n    height: 75%;\r\n    width: 98%;\r\n  }\r\n\r\n\r\n  .image-principal{\r\n    position: absolute;\r\n    width: 60%;\r\n    left: 0%;\r\n    margin-left: 10%;\r\n    -webkit-filter: brightness(80%);\r\n            filter: brightness(80%);\r\n    box-shadow: 0px 0px 1rem 0.1rem rgba(0,0,0,0.75);\r\n    border-radius: 2%;\r\n  }\r\n\r\n  .bajada{\r\n    position: relative;\r\n    -webkit-animation-duration: 2s;\r\n            animation-duration: 2s;\r\n    -webkit-animation-name: caida;\r\n            animation-name: caida;\r\n  }\r\n\r\n  .subida{\r\n    position: relative; \r\n    -webkit-animation-duration: 2s; \r\n            animation-duration: 2s;\r\n    -webkit-animation-name: subida;\r\n            animation-name: subida;\r\n  }\r\n\r\n  @-webkit-keyframes caida {\r\n    from {\r\n      top: -100%;\r\n      height: 100%;\r\n    }\r\n  \r\n    to {\r\n      height: 180%;\r\n      top: 0%;\r\n    }\r\n  }\r\n\r\n  @keyframes caida {\r\n    from {\r\n      top: -100%;\r\n      height: 100%;\r\n    }\r\n  \r\n    to {\r\n      height: 180%;\r\n      top: 0%;\r\n    }\r\n  }\r\n\r\n  @-webkit-keyframes subida {\r\n    from {\r\n      bottom: -100%;\r\n      height: 100%;\r\n    }\r\n  \r\n    to {\r\n      height: 180%;\r\n      bottom: 0%;\r\n    }\r\n  }\r\n\r\n  @keyframes subida {\r\n    from {\r\n      bottom: -100%;\r\n      height: 100%;\r\n    }\r\n  \r\n    to {\r\n      height: 180%;\r\n      bottom: 0%;\r\n    }\r\n  }\r\n ", ""]);
 
 // exports
 
@@ -66117,6 +66117,50 @@ module.exports = function(module) {
 
 /***/ }),
 
+/***/ "./public/iconos/graduation-cap-solid.svg":
+/*!************************************************!*\
+  !*** ./public/iconos/graduation-cap-solid.svg ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/graduation-cap-solid.svg?1df86bff60eadf99cd8091d0264e1fd1";
+
+/***/ }),
+
+/***/ "./public/iconos/id-card-regular.svg":
+/*!*******************************************!*\
+  !*** ./public/iconos/id-card-regular.svg ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/id-card-regular.svg?6b804ee122dfccead5b9c3754c0ed27f";
+
+/***/ }),
+
+/***/ "./public/iconos/leanpub-brands.svg":
+/*!******************************************!*\
+  !*** ./public/iconos/leanpub-brands.svg ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/leanpub-brands.svg?73ebb91ed0bbb9ade4f824e158668fd4";
+
+/***/ }),
+
+/***/ "./public/iconos/user-cog-solid.svg":
+/*!******************************************!*\
+  !*** ./public/iconos/user-cog-solid.svg ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/user-cog-solid.svg?d1b32fc269a6b904e2a2db83e413b36a";
+
+/***/ }),
+
 /***/ "./public/images/facebook.png":
 /*!************************************!*\
   !*** ./public/images/facebook.png ***!
@@ -66179,7 +66223,7 @@ module.exports = "/images/twitter.png?10f7e90ffe2316766d65513eb5072192";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/images/yop.jpg?d41d8cd98f00b204e9800998ecf8427e";
+module.exports = "/images/yop.jpg?0731c96805fae435b24f13a3a820b584";
 
 /***/ }),
 
@@ -66330,7 +66374,9 @@ function (_React$Component) {
   _createClass(About, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_header_js__WEBPACK_IMPORTED_MODULE_2__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_info_js__WEBPACK_IMPORTED_MODULE_1__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_footer_js__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "fondo-2"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_header_js__WEBPACK_IMPORTED_MODULE_2__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_info_js__WEBPACK_IMPORTED_MODULE_1__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_footer_js__WEBPACK_IMPORTED_MODULE_3__["default"], {
         redes: redes
       }));
     }
@@ -66429,7 +66475,7 @@ function (_React$Component) {
         className: "footer"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "content"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("center", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("center", null, this.props.redes.Facebook ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "footer-social"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: this.props.redes.Facebook
@@ -66437,7 +66483,7 @@ function (_React$Component) {
         src: _public_images_facebook_png__WEBPACK_IMPORTED_MODULE_1___default.a,
         className: "social-icon",
         alt: "icono de facebook"
-      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }))) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "footer-social"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: this.props.redes.Twitter
@@ -66570,10 +66616,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _particulas_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./particulas.js */ "./resources/js/components/particulas.js");
 /* harmony import */ var _header_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./header.js */ "./resources/js/components/header.js");
 /* harmony import */ var _footer_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./footer.js */ "./resources/js/components/footer.js");
-/* harmony import */ var _styles_index_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./styles/index.css */ "./resources/js/components/styles/index.css");
-/* harmony import */ var _styles_index_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_styles_index_css__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _styles_general_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./styles/general.css */ "./resources/js/components/styles/general.css");
-/* harmony import */ var _styles_general_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_styles_general_css__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _styles_general_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./styles/general.css */ "./resources/js/components/styles/general.css");
+/* harmony import */ var _styles_general_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_styles_general_css__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _styles_index_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./styles/index.css */ "./resources/js/components/styles/index.css");
+/* harmony import */ var _styles_index_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_styles_index_css__WEBPACK_IMPORTED_MODULE_6__);
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -66602,7 +66648,7 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 var saludo = "Hola";
 var identificacion = "Soy Alcides, Ingeniero en Computación";
 var mensaje = "este es un mensaje de prueba para ver como va y no colocare lo anterior para que mi novia no diga nada :v";
-var redes = JSON.parse('{"Facebook":"https://www.facebook.com/leon.alcides","Twitter":"https://twitter.com/alcidesleon","Instagram":"https://www.instagram.com/leitorino/","Linkedin":"https://www.linkedin.com/in/alcides-leon-a7495713b/"}');
+var redes = JSON.parse('{"Twitter":"https://twitter.com/alcidesleon","Instagram":"https://www.instagram.com/leitorino/","Linkedin":"https://www.linkedin.com/in/alcides-leon-a7495713b/"}');
 
 var Index =
 /*#__PURE__*/
@@ -66646,6 +66692,14 @@ function (_React$Component) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _public_iconos_graduation_cap_solid_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../public/iconos/graduation-cap-solid.svg */ "./public/iconos/graduation-cap-solid.svg");
+/* harmony import */ var _public_iconos_graduation_cap_solid_svg__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_public_iconos_graduation_cap_solid_svg__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _public_iconos_leanpub_brands_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../public/iconos/leanpub-brands.svg */ "./public/iconos/leanpub-brands.svg");
+/* harmony import */ var _public_iconos_leanpub_brands_svg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_public_iconos_leanpub_brands_svg__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _public_iconos_id_card_regular_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../public/iconos/id-card-regular.svg */ "./public/iconos/id-card-regular.svg");
+/* harmony import */ var _public_iconos_id_card_regular_svg__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_public_iconos_id_card_regular_svg__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _public_iconos_user_cog_solid_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../public/iconos/user-cog-solid.svg */ "./public/iconos/user-cog-solid.svg");
+/* harmony import */ var _public_iconos_user_cog_solid_svg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_public_iconos_user_cog_solid_svg__WEBPACK_IMPORTED_MODULE_4__);
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -66666,6 +66720,10 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 
 
+
+
+
+
 var Info =
 /*#__PURE__*/
 function (_React$Component) {
@@ -66683,12 +66741,62 @@ function (_React$Component) {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "container-position"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "container"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "row"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-12 text-left"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Sobre Alcides Le\xF3n")))));
+        className: "col-12 text-left pt-5 ml-5 mb-2"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Sobre", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Alcides Le\xF3n"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-12"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        className: "image-horizontal",
+        src: "",
+        alt: "yo horizontal"
+      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-6"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-12 text-center"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: _public_iconos_user_cog_solid_svg__WEBPACK_IMPORTED_MODULE_4___default.a,
+        className: "icons-1 d-inline",
+        alt: "icono de habilidades"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "d-inline ml-2"
+      }, "Habilidades"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-6"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-12 text-center"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: _public_iconos_id_card_regular_svg__WEBPACK_IMPORTED_MODULE_3___default.a,
+        className: "icons-1 d-inline",
+        alt: "icono de sobre mi"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "d-inline ml-2"
+      }, "Sobre Mi")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-6"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-12 text-center"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: _public_iconos_leanpub_brands_svg__WEBPACK_IMPORTED_MODULE_2___default.a,
+        className: "icons-1 d-inline",
+        alt: "icono de estudios"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "d-inline ml-2"
+      }, "Sobre Mi"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-6"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-12 text-center"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: _public_iconos_graduation_cap_solid_svg__WEBPACK_IMPORTED_MODULE_1___default.a,
+        className: "icons-1 d-inline",
+        alt: "icono de cursos"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "d-inline ml-2"
+      }, "Sobre Mi")))));
     }
   }]);
 

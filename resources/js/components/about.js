@@ -10,7 +10,7 @@ class About extends React.Component {
 
     render() {
         return(
-            <div>
+            <div className="fondo-2">
                 <Header />
                 <Info />
                 <Footer redes={redes}/>

@@ -14,7 +14,7 @@ class Header extends React.Component {
                             Inicio
                         </div>
                     </Link>
-                    <Link to="asd">
+                    <Link to="about">
                         <div className="nav-button">
                             Sobre Mi
                         </div>

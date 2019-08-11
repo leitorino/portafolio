@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import Particula from './particulas.js';
 import Header from './header.js';
 import Footer from './footer.js';
-import './styles/index.css';
 import './styles/general.css';
+import './styles/index.css';
 
 var saludo = "Hola";
 var identificacion ="Soy Alcides, Ingeniero en Computación";

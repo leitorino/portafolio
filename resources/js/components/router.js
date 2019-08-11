@@ -8,7 +8,7 @@ function router(){
         <BrowserRouter>
             <Switch>
                 <Route exact path="/" component={Index}></Route>
-                <Route exact path="/asd" component={About}></Route>
+                <Route exact path="/about" component={About}></Route>
             </Switch>
         </BrowserRouter>
     );

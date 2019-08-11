@@ -1,9 +1,12 @@
-body{
+.fondo-2{
     background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
 .container-position{
-    position: absolute;
+    position: fixed;
     width: 100%;
     top: 7%;
   }
@@ -99,4 +102,10 @@ body{
     color: #C4C4C4;
     border-bottom: 0.3rem solid #C4C4C4;
     z-index: 3;
+  }
+
+  .icons-1{
+    width: 5%;
+    height: 5%;
+    fill: #C4C4C4;
   }
