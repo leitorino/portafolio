@@ -70,9 +70,9 @@ class Particula extends React.Component {
                                 <div className="subida">
                                     <h3>{this.props.saludo}</h3>
                                     <h4>{this.props.identificacion}</h4>
-                                    <h5>
-                                        {this.props.mensaje}
-                                    </h5>
+                                    <h6>
+                                        {this.props.introduccion}
+                                    </h6>
                                 </div>
                             </div>
                             <div className="col-4 ">

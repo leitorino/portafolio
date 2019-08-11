@@ -34,19 +34,22 @@ class Info extends React.Component {
                                 <img src={icon2} className="icons-1 d-inline" alt="icono de sobre mi"></img>
                                 <div className="d-inline ml-2">Sobre Mi</div>
                             </div>
+                            <div className="col-12 text-justify">
+                                
+                            </div>
                         </div>
                     </div>
                     <div className="row">
                         <div className="col-6">
                             <div className="col-12 text-center">
-                                <img src={icon3} className="icons-1 d-inline" alt="icono de estudios"></img>
-                                <div className="d-inline ml-2">Sobre Mi</div>
+                                <img src={icon3} className="icons-1 d-inline" alt="icono de cursos"></img>
+                                <div className="d-inline ml-2">Cursos</div>
                             </div>
                         </div>
                         <div className="col-6">
                             <div className="col-12 text-center">
-                                <img src={icon4} className="icons-1 d-inline" alt="icono de cursos"></img>
-                                <div className="d-inline ml-2">Sobre Mi</div>
+                                <img src={icon4} className="icons-1 d-inline" alt="icono de estudios"></img>
+                                <div className="d-inline ml-2">Estudios</div>
                             </div>
                         </div>
                     </div>

@@ -6287,7 +6287,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".fondo-2{\r\n    background-color: white;\r\n    position: absolute;\r\n    width: 100%;\r\n    height: 100%;\r\n}\r\n\r\n.container-position{\r\n    position: fixed;\r\n    width: 100%;\r\n    top: 7%;\r\n  }\r\n\r\n.footer{\r\n    background-color: black;\r\n    z-index: 2;\r\n    background-image: url(" + escape(__webpack_require__(/*! ../../../../public/images/fondo-footer-2.png */ "./public/images/fondo-footer-2.png")) + ");\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n    background-position-x: center;\r\n    bottom: 0%;\r\n    width: 100%;\r\n    height: 15%;\r\n    position: absolute;\r\n    color: white;\r\n    display: flex;\r\n    vertical-align: middle;\r\n    align-items: center;\r\n    text-align: center;\r\n  }\r\n\r\n  .footer .content{\r\n    margin: auto;\r\n    text-align: center;\r\n  }\r\n\r\n  .footer h1{\r\n    margin: 0;\r\n  }\r\n\r\n  .footer-social{\r\n    position: relative;\r\n    display: inline;\r\n    margin-left: 2%;\r\n    margin-right: 2%;\r\n  }\r\n\r\n  .social-icon{\r\n    width: 4%;\r\n  }\r\n\r\n  .nav{\r\n    background-color: white;\r\n    width: 100%;\r\n    text-align: center;\r\n    position: absolute;\r\n    top: 0%;\r\n    display: flex;\r\n    height: 100%;\r\n  }\r\n\r\n  .header{\r\n    position: absolute;\r\n    top: 0%;\r\n    width: 100%;\r\n    height: 7%;\r\n    z-index: 2;\r\n  }\r\n\r\n  .header hr{\r\n    bottom: 0%;\r\n    border: 0.1rem solid black;\r\n    position: absolute;\r\n    width: -webkit-fill-available;\r\n    margin: 0%;\r\n    z-index: 2;\r\n  }\r\n\r\n  .nav-button{\r\n    font-family: Roboto;\r\n    font-weight: bolder;\r\n    position: absolute;\r\n    margin-left: 25%;\r\n    margin-right: 25%;\r\n    width: 50%;\r\n    height: 50%;\r\n    top: 25%;\r\n    bottom: 25%;\r\n  }\r\n\r\n  .nav a{\r\n    color: black;\r\n    text-decoration: none;\r\n    position: relative;\r\n    width: 15%;\r\n    height: 101%;\r\n    margin-left: 2%;\r\n    margin-right: 2%;\r\n  }\r\n\r\n  .nav a:hover{\r\n    color: #C4C4C4;\r\n    border-bottom: 0.3rem solid #C4C4C4;\r\n    z-index: 3;\r\n  }\r\n\r\n  .icons-1{\r\n    width: 5%;\r\n    height: 5%;\r\n    fill: #C4C4C4;\r\n  }", ""]);
+exports.push([module.i, ".fondo-2{\r\n    background-color: white;\r\n    position: absolute;\r\n    width: 100%;\r\n    height: 100%;\r\n}\r\n\r\n.container-position{\r\n    position: fixed;\r\n    width: 100%;\r\n    top: 7%;\r\n  }\r\n\r\n.footer{\r\n    background-color: black;\r\n    z-index: 2;\r\n    background-image: url(" + escape(__webpack_require__(/*! ../../../../public/images/fondo-footer-2.png */ "./public/images/fondo-footer-2.png")) + ");\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n    background-position-x: center;\r\n    bottom: 0%;\r\n    width: 100%;\r\n    height: 15%;\r\n    position: absolute;\r\n    color: white;\r\n    display: flex;\r\n    vertical-align: middle;\r\n    align-items: center;\r\n    text-align: center;\r\n  }\r\n\r\n  .footer .content{\r\n    margin: auto;\r\n    text-align: center;\r\n  }\r\n\r\n  .footer h1{\r\n    margin: 0;\r\n  }\r\n\r\n  .footer-social{\r\n    position: relative;\r\n    display: inline;\r\n    margin-left: 2%;\r\n    margin-right: 2%;\r\n  }\r\n\r\n  .social-icon{\r\n    width: 4%;\r\n  }\r\n\r\n  .nav{\r\n    background-color: white;\r\n    width: 100%;\r\n    text-align: center;\r\n    position: absolute;\r\n    top: 0%;\r\n    display: flex;\r\n    height: 100%;\r\n  }\r\n\r\n  .header{\r\n    position: absolute;\r\n    top: 0%;\r\n    width: 100%;\r\n    height: 7%;\r\n    z-index: 2;\r\n    font-family: 'Roboto', sans-serif;\r\n  }\r\n\r\n  .header hr{\r\n    bottom: 0%;\r\n    border: 0.1rem solid black;\r\n    position: absolute;\r\n    width: -webkit-fill-available;\r\n    margin: 0%;\r\n    z-index: 2;\r\n  }\r\n\r\n  .nav-button{\r\n    font-family: Roboto;\r\n    font-weight: bolder;\r\n    position: absolute;\r\n    margin-left: 25%;\r\n    margin-right: 25%;\r\n    width: 50%;\r\n    height: 50%;\r\n    top: 25%;\r\n    bottom: 25%;\r\n  }\r\n\r\n  .nav a{\r\n    color: black;\r\n    text-decoration: none;\r\n    position: relative;\r\n    width: 15%;\r\n    height: 101%;\r\n    margin-left: 2%;\r\n    margin-right: 2%;\r\n  }\r\n\r\n  .nav a:hover{\r\n    color: #C4C4C4;\r\n    border-bottom: 0.3rem solid #C4C4C4;\r\n    z-index: 3;\r\n  }\r\n\r\n  .icons-1{\r\n    width: 5%;\r\n    height: 5%;\r\n    fill: #C4C4C4;\r\n  }", ""]);
 
 // exports
 
@@ -6303,10 +6303,10 @@ exports.push([module.i, ".fondo-2{\r\n    background-color: white;\r\n    positi
 
 exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
 // imports
-
+exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Revalia|Roboto&display=swap);", ""]);
 
 // module
-exports.push([module.i, "body {\r\n    background-color: #C4C4C4 !important;\r\n    margin: 0;\r\n    padding: 0;\r\n  }\r\n\r\n  .particulas{\r\n    z-index: 1;\r\n    width: 100%;\r\n    height: 110%;\r\n  }\r\n\r\n  .titulo{\r\n    z-index: 2;\r\n    font-family: Revalia;\r\n    position: absolute;\r\n    text-align: center;\r\n    width: 100%;\r\n  }\r\n\r\n  .contenedor{\r\n    display: flex;\r\n    position: absolute;\r\n    vertical-align: middle;\r\n    align-items: center;\r\n    height: 75%;\r\n    width: 98%;\r\n  }\r\n\r\n\r\n  .image-principal{\r\n    position: absolute;\r\n    width: 60%;\r\n    left: 0%;\r\n    margin-left: 10%;\r\n    -webkit-filter: brightness(80%);\r\n            filter: brightness(80%);\r\n    box-shadow: 0px 0px 1rem 0.1rem rgba(0,0,0,0.75);\r\n    border-radius: 2%;\r\n  }\r\n\r\n  .bajada{\r\n    position: relative;\r\n    -webkit-animation-duration: 2s;\r\n            animation-duration: 2s;\r\n    -webkit-animation-name: caida;\r\n            animation-name: caida;\r\n  }\r\n\r\n  .subida{\r\n    position: relative; \r\n    -webkit-animation-duration: 2s; \r\n            animation-duration: 2s;\r\n    -webkit-animation-name: subida;\r\n            animation-name: subida;\r\n  }\r\n\r\n  @-webkit-keyframes caida {\r\n    from {\r\n      top: -100%;\r\n      height: 100%;\r\n    }\r\n  \r\n    to {\r\n      height: 180%;\r\n      top: 0%;\r\n    }\r\n  }\r\n\r\n  @keyframes caida {\r\n    from {\r\n      top: -100%;\r\n      height: 100%;\r\n    }\r\n  \r\n    to {\r\n      height: 180%;\r\n      top: 0%;\r\n    }\r\n  }\r\n\r\n  @-webkit-keyframes subida {\r\n    from {\r\n      bottom: -100%;\r\n      height: 100%;\r\n    }\r\n  \r\n    to {\r\n      height: 180%;\r\n      bottom: 0%;\r\n    }\r\n  }\r\n\r\n  @keyframes subida {\r\n    from {\r\n      bottom: -100%;\r\n      height: 100%;\r\n    }\r\n  \r\n    to {\r\n      height: 180%;\r\n      bottom: 0%;\r\n    }\r\n  }\r\n ", ""]);
+exports.push([module.i, "body {\r\n    background-color: #C4C4C4 !important;\r\n    margin: 0;\r\n    padding: 0;\r\n    font-family: 'Revalia', cursive;\r\n  }\r\n\r\n  .particulas{\r\n    z-index: 1;\r\n    width: 100%;\r\n    height: 110%;\r\n  }\r\n\r\n  .titulo{\r\n    z-index: 2;\r\n    font-family: Revalia;\r\n    position: absolute;\r\n    text-align: center;\r\n    width: 100%;\r\n  }\r\n\r\n  .contenedor{\r\n    display: flex;\r\n    position: absolute;\r\n    vertical-align: middle;\r\n    align-items: center;\r\n    height: 75%;\r\n    width: 98%;\r\n  }\r\n\r\n\r\n  .image-principal{\r\n    position: absolute;\r\n    width: 60%;\r\n    left: 0%;\r\n    margin-left: 10%;\r\n    -webkit-filter: brightness(80%);\r\n            filter: brightness(80%);\r\n    box-shadow: 0px 0px 1rem 0.1rem rgba(0,0,0,0.75);\r\n    border-radius: 2%;\r\n  }\r\n\r\n  .bajada{\r\n    position: relative;\r\n    -webkit-animation-duration: 2s;\r\n            animation-duration: 2s;\r\n    -webkit-animation-name: caida;\r\n            animation-name: caida;\r\n  }\r\n\r\n  .subida{\r\n    position: relative; \r\n    -webkit-animation-duration: 2s; \r\n            animation-duration: 2s;\r\n    -webkit-animation-name: subida;\r\n            animation-name: subida;\r\n  }\r\n\r\n  @-webkit-keyframes caida {\r\n    from {\r\n      top: -100%;\r\n      height: 100%;\r\n    }\r\n  \r\n    to {\r\n      height: 180%;\r\n      top: 0%;\r\n    }\r\n  }\r\n\r\n  @keyframes caida {\r\n    from {\r\n      top: -100%;\r\n      height: 100%;\r\n    }\r\n  \r\n    to {\r\n      height: 180%;\r\n      top: 0%;\r\n    }\r\n  }\r\n\r\n  @-webkit-keyframes subida {\r\n    from {\r\n      bottom: -100%;\r\n      height: 100%;\r\n    }\r\n  \r\n    to {\r\n      height: 180%;\r\n      bottom: 0%;\r\n    }\r\n  }\r\n\r\n  @keyframes subida {\r\n    from {\r\n      bottom: -100%;\r\n      height: 100%;\r\n    }\r\n  \r\n    to {\r\n      height: 180%;\r\n      bottom: 0%;\r\n    }\r\n  }\r\n ", ""]);
 
 // exports
 
@@ -66483,7 +66483,7 @@ function (_React$Component) {
         src: _public_images_facebook_png__WEBPACK_IMPORTED_MODULE_1___default.a,
         className: "social-icon",
         alt: "icono de facebook"
-      }))) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }))) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null), this.props.redes.Twitter ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "footer-social"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: this.props.redes.Twitter
@@ -66491,7 +66491,7 @@ function (_React$Component) {
         src: _public_images_twitter_png__WEBPACK_IMPORTED_MODULE_2___default.a,
         className: "social-icon",
         alt: "icono de twitters"
-      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }))) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null), this.props.redes.Instagram ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "footer-social"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: this.props.redes.Instagram
@@ -66499,7 +66499,7 @@ function (_React$Component) {
         src: _public_images_instagram_png__WEBPACK_IMPORTED_MODULE_4___default.a,
         className: "social-icon",
         alt: "icono de instagram"
-      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }))) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null), this.props.redes.Linkedin ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "footer-social"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: this.props.redes.Linkedin
@@ -66507,7 +66507,7 @@ function (_React$Component) {
         src: _public_images_linkedin_png__WEBPACK_IMPORTED_MODULE_3___default.a,
         className: "social-icon",
         alt: "icono de linkedin"
-      }))))));
+      }))) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null))));
     }
   }]);
 
@@ -66574,7 +66574,7 @@ function (_React$Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "nav-button"
       }, "Inicio")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-        to: "asd"
+        to: "about"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "nav-button"
       }, "Sobre Mi")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
@@ -66647,8 +66647,8 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 var saludo = "Hola";
 var identificacion = "Soy Alcides, Ingeniero en Computación";
-var mensaje = "este es un mensaje de prueba para ver como va y no colocare lo anterior para que mi novia no diga nada :v";
-var redes = JSON.parse('{"Twitter":"https://twitter.com/alcidesleon","Instagram":"https://www.instagram.com/leitorino/","Linkedin":"https://www.linkedin.com/in/alcides-leon-a7495713b/"}');
+var introduccion = "este es un mensaje de prueba para ver como va y no colocare lo anterior para que mi novia no diga nada :v";
+var redes = JSON.parse('{"Facebook":"https://www.facebook.com/leon.alcides","Twitter":"https://twitter.com/alcidesleon","Instagram":"https://www.instagram.com/leitorino/","Linkedin":"https://www.linkedin.com/in/alcides-leon-a7495713b/"}');
 
 var Index =
 /*#__PURE__*/
@@ -66667,7 +66667,7 @@ function (_React$Component) {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_header_js__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_particulas_js__WEBPACK_IMPORTED_MODULE_2__["default"], {
         saludo: saludo,
         identificacion: identificacion,
-        mensaje: mensaje
+        introduccion: introduccion
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_footer_js__WEBPACK_IMPORTED_MODULE_4__["default"], {
         redes: redes
       }));
@@ -66774,7 +66774,9 @@ function (_React$Component) {
         alt: "icono de sobre mi"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "d-inline ml-2"
-      }, "Sobre Mi")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "Sobre Mi")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-12 text-justify"
+      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "row"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "col-6"
@@ -66783,20 +66785,20 @@ function (_React$Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: _public_iconos_leanpub_brands_svg__WEBPACK_IMPORTED_MODULE_2___default.a,
         className: "icons-1 d-inline",
-        alt: "icono de estudios"
+        alt: "icono de cursos"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "d-inline ml-2"
-      }, "Sobre Mi"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "Cursos"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "col-6"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "col-12 text-center"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: _public_iconos_graduation_cap_solid_svg__WEBPACK_IMPORTED_MODULE_1___default.a,
         className: "icons-1 d-inline",
-        alt: "icono de cursos"
+        alt: "icono de estudios"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "d-inline ml-2"
-      }, "Sobre Mi")))));
+      }, "Estudios")))));
     }
   }]);
 
@@ -66924,7 +66926,7 @@ function (_React$Component) {
         className: "col-4 offset-2 text-right"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "subida"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, this.props.saludo), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, this.props.identificacion), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, this.props.mensaje))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, this.props.saludo), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, this.props.identificacion), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", null, this.props.introduccion))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "col-4 "
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "bajada"
@@ -66969,7 +66971,7 @@ function router() {
     component: _index__WEBPACK_IMPORTED_MODULE_2__["default"]
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
     exact: true,
-    path: "/asd",
+    path: "/about",
     component: _about__WEBPACK_IMPORTED_MODULE_3__["default"]
   })));
 }
