@@ -3,7 +3,37 @@ import Particles from 'react-particles-js';
 import Yo from '../../../public/images/yop.jpg';
 
 class Particula extends React.Component {
+
+    state = {
+        loading: true,
+        error: null,
+        data: [],
+    };
+
+    componentDidMount(){
+        this.fetchData();
+    }
+
+    fetchData = async () => {
+        this.setState({loading: true, error: null}); 
+
+        try{ 
+            const response = await fetch('http://127.0.0.1:8888/api/introduccion/1');
+            const data = await response.json();
+            this.setState({loading: false, data: data});
+        }catch(error){
+            this.setState({loading: false, error: error});
+        }
+
+    }
+
+
     render() {
+        if(this.state.loading === true){
+            return 'Loading...'
+        }
+
+
         return(
             <div>
                 <div className="contenedor">
@@ -68,10 +98,10 @@ class Particula extends React.Component {
                         <div className="row">
                             <div className="col-4 offset-2 text-right">
                                 <div className="subida">
-                                    <h3>{this.props.saludo}</h3>
-                                    <h4>{this.props.identificacion}</h4>
+                                    <h3>{this.state.data.saludo}</h3>
+                                    <h4>{this.state.data.identificacion}</h4>
                                     <h6>
-                                        {this.props.introduccion}
+                                        {this.state.data.introduccion}
                                     </h6>
                                 </div>
                             </div>
