@@ -3,9 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Informacion;
+use App\redSocial;
 
-class InformacionController extends Controller
+class redesController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -46,8 +46,17 @@ class InformacionController extends Controller
      */
     public function show($id)
     {
-        $datos = json_encode(Informacion::Select('mensaje')->first());
-        return $datos;
+        $datos = (redSocial::select('nombre','link')->get());
+        $json = "{";
+
+        foreach ($datos as $data){
+            $json .= '"' . $data["nombre"] . '":"' . $data["link"] . '",';
+        } 
+        $json = substr_replace($json ,"", -1);
+        $json .= "}";
+        $json = json_encode($json);
+        
+        return $json;
     }
 
     /**

@@ -1,6 +1,6 @@
 import React from 'react';
 import Particles from 'react-particles-js';
-import Yo from '../../../public/images/yop.jpg';
+// import Yo from '../../../public/images/yop.jpg';
 
 class Particula extends React.Component {
 
@@ -8,6 +8,7 @@ class Particula extends React.Component {
         loading: true,
         error: null,
         data: [],
+        image: [],
     };
 
     componentDidMount(){
@@ -20,7 +21,15 @@ class Particula extends React.Component {
         try{ 
             const response = await fetch('http://127.0.0.1:8888/api/introduccion/1');
             const data = await response.json();
-            this.setState({loading: false, data: data});
+             this.setState({data: data});
+        }catch(error){
+            this.setState({error: error});
+        }
+
+        try{ 
+            const response = await fetch('http://127.0.0.1:8888/api/image/1');
+            const image = await response.json();
+            this.setState({loading: false, image: image});
         }catch(error){
             this.setState({loading: false, error: error});
         }
@@ -32,7 +41,6 @@ class Particula extends React.Component {
         if(this.state.loading === true){
             return 'Loading...'
         }
-
 
         return(
             <div>
@@ -107,7 +115,7 @@ class Particula extends React.Component {
                             </div>
                             <div className="col-4 ">
                                 <div className="bajada">
-                                    <img className="image-principal" src={Yo} alt="yop"/>
+                                    <img className="image-principal" src={this.state.image.inicio} alt="yop"/>
                                 </div>
                                 
                             </div>

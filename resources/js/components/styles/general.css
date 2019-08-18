@@ -6,31 +6,26 @@
 }
 
 .container-position{
-    position: fixed;
+    position: relative;
     width: 100%;
-    top: 7%;
+    display: contents;
   }
 
 .footer{
     background-color: black;
-    z-index: 2;
     background-image: url('../../../../public/images/fondo-footer-2.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
-    bottom: 0%;
-    width: 100%;
     height: 15%;
-    position: absolute;
     color: white;
     display: flex;
-    vertical-align: middle;
-    align-items: center;
     text-align: center;
   }
 
   .footer .content{
-    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
     text-align: center;
   }
 
@@ -109,4 +104,20 @@
     width: 5%;
     height: 5%;
     fill: #C4C4C4;
+  }
+
+  .image-horizontal{
+    width: 100%;
+    position: relative;
+  }
+
+  .image-horizontal img{
+    max-height: 12rem;
+    width: 100%;
+    position: relative;
+  }
+
+  .another-container{
+    display: contents;
+    position: relative;
   }

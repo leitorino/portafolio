@@ -13,7 +13,7 @@ class About extends React.Component {
             <div className="fondo-2">
                 <Header />
                 <Info />
-                <Footer redes={redes}/>
+                <Footer redes={redes} type="normal"/>
             </div>
         );
     }

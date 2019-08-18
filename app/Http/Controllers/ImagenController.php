@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Imagen;
 
 class ImagenController extends Controller
 {
@@ -45,7 +46,8 @@ class ImagenController extends Controller
      */
     public function show($id)
     {
-        //
+        $datos = json_encode(Imagen::select('inicio','about','perfil')->first());
+        return $datos;
     }
 
     /**

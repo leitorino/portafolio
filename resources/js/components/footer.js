@@ -5,38 +5,60 @@ import linkedinicon from '../../../public/images/linkedin.png';
 import instagramicon from '../../../public/images/instagram.png';
 
 class Footer extends React.Component {
-    render() {
+    state = {
+        error: null,
+        redes: [],
+    };
+
+    componentDidMount(){
+        this.fetchData();
+    }
+
+    fetchData = async () => {
+
+        try{ 
+            const response = await fetch('http://127.0.0.1:8888/api/redes/1');
+            var redes = await response.json();
+            this.setState({redes: redes});
+            this.setState({redes: JSON.parse(redes)});
+        }catch(error){
+            this.setState({error: error});
+        }
+
+    }
+
+    render() { 
         return(
-            <div className="footer">
+            <div className="footer fixed-bottom">
                 <div className="content">
                     <center>
-                        {(this.props.redes.Facebook) ? (
+                        {(this.state.redes.Facebook) && (
                             <div className="footer-social">
-                                <a href={this.props.redes.Facebook}> 
+                                <a href={this.state.redes.Facebook} target="_blank"> 
                                     <img src={facebookicon} className="social-icon" alt="icono de facebook"/>
                                 </a>
                             </div>
-                        ):(<div></div>)}
-                        {(this.props.redes.Twitter) ? (
+                        )}
+                        {(this.state.redes.Twitter) && (
                         <div className="footer-social">
-                            <a href={this.props.redes.Twitter}>
-                                <img src={twittericon} className="social-icon" alt="icono de twitters"/>
+                            <a href={this.state.redes.Twitter} target="_blank">
+                                <img src={twittericon} className="social-icon" alt="icono de twitter"/>
                             </a>
-                        </div>):(<div></div>)}
-                        {(this.props.redes.Instagram) ? (
+                        </div>)}
+                        {(this.state.redes.Instagram) && (
                         <div  className="footer-social">
-                            <a href={this.props.redes.Instagram}>
+                            <a href={this.state.redes.Instagram} target="_blank">
                                 <img src={instagramicon} className="social-icon" alt="icono de instagram"/>
                             </a>
                         </div>
-                        ):(<div></div>)}
-                        {(this.props.redes.Linkedin) ? (
+                        )}
+                        {(this.state.redes.Linkedin) && (
                         <div  className="footer-social">
-                            <a href={this.props.redes.Linkedin}>
+                            <a href={this.state.redes.Linkedin} target="_blank">
                                 <img src={linkedinicon} className="social-icon" alt="icono de linkedin"/>
                             </a>
                         </div>
-                        ):(<div></div>)}
+                        )}
                     </center>
                 </div>
             </div>
