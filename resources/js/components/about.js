@@ -4,8 +4,6 @@ import Header from './header.js';
 import Footer from './footer.js';
 import './styles/general.css';
 
-var redes = JSON.parse('{"Facebook":"https://www.facebook.com/leon.alcides","Twitter":"https://twitter.com/alcidesleon","Instagram":"https://www.instagram.com/leitorino/","Linkedin":"https://www.linkedin.com/in/alcides-leon-a7495713b/"}');
-
 class About extends React.Component {
 
     render() {
@@ -13,7 +11,7 @@ class About extends React.Component {
             <div className="fondo-2">
                 <Header />
                 <Info />
-                <Footer redes={redes} type="normal"/>
+                <Footer type="normal"/>
             </div>
         );
     }

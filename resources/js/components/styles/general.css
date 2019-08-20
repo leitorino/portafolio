@@ -1,8 +1,18 @@
+p{
+  font-size: 0.8rem;
+  margin-bottom: 0;
+  margin-block: 0;
+}
+
+meter{
+  width: 100%;
+  border-radius: 2px;
+}
+
 .fondo-2{
     background-color: white;
     position: absolute;
     width: 100%;
-    height: 100%;
 }
 
 .container-position{
@@ -17,7 +27,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
-    height: 15%;
+    height: 7rem;
     color: white;
     display: flex;
     text-align: center;
@@ -40,6 +50,10 @@
     margin-right: 2%;
   }
 
+  .footer2{
+    position: relative;
+  }
+
   .social-icon{
     width: 4%;
   }
@@ -58,9 +72,10 @@
     position: absolute;
     top: 0%;
     width: 100%;
-    height: 7%;
+    height: 3.5rem;
     z-index: 2;
     font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
   }
 
   .header hr{
@@ -75,13 +90,14 @@
   .nav-button{
     font-family: Roboto;
     font-weight: bolder;
-    position: absolute;
-    margin-left: 25%;
-    margin-right: 25%;
-    width: 50%;
-    height: 50%;
-    top: 25%;
-    bottom: 25%;
+    height: 100%;
+    width: 100%;
+    display: table;
+  }
+
+  .nav-button div{
+    display: table-cell;
+    vertical-align: middle;
   }
 
   .nav a{
@@ -102,7 +118,6 @@
 
   .icons-1{
     width: 5%;
-    height: 5%;
     fill: #C4C4C4;
   }
 
@@ -112,7 +127,7 @@
   }
 
   .image-horizontal img{
-    max-height: 12rem;
+    max-height: 13rem;
     width: 100%;
     position: relative;
   }
@@ -121,3 +136,52 @@
     display: contents;
     position: relative;
   }
+
+  .boton{
+    color: white;
+    background-color: black;
+    border-color: black;
+    font-size: 0.6rem;
+  }
+
+  .subtitulo{
+    color: #C4C4C4;
+  }
+
+  meter::-webkit-meter-optimum-value {
+    box-shadow: 0 5px 5px -5px #999 inset;
+    border-radius: 2px;
+    background-image: linear-gradient(
+      black 0%, 
+      black 100%
+    );
+  }
+
+  meter::-webkit-meter-even-less-good-value {
+    box-shadow: 0 5px 5px -5px #999 inset;
+    border-radius: 2px;
+    background-image: linear-gradient(
+      #C4C4C4 0%, 
+      #C4C4C4 20%
+    );
+  }
+
+  meter::-webkit-meter-suboptimum-value {
+    box-shadow: 0 5px 5px -5px #999 inset;
+    border-radius: 2px;
+    background-image: linear-gradient(
+      115deg, 
+      black 0%,
+      black 20%,
+      #C4C4C4 20%, 
+      #C4C4C4 40%,
+      black 40%,
+      black 60%,
+      #C4C4C4 60%,
+      #C4C4C4 80%,
+      black 80%,
+      black 100%
+    );
+  }
+
+  

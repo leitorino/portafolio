@@ -6299,7 +6299,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".fondo-2{\r\n    background-color: white;\r\n    position: absolute;\r\n    width: 100%;\r\n    height: 100%;\r\n}\r\n\r\n.container-position{\r\n    position: relative;\r\n    width: 100%;\r\n    display: contents;\r\n  }\r\n\r\n.footer{\r\n    background-color: black;\r\n    background-image: url(" + escape(__webpack_require__(/*! ../../../../public/images/fondo-footer-2.png */ "./public/images/fondo-footer-2.png")) + ");\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n    background-position-x: center;\r\n    height: 15%;\r\n    color: white;\r\n    display: flex;\r\n    text-align: center;\r\n  }\r\n\r\n  .footer .content{\r\n    margin-top: auto;\r\n    margin-bottom: auto;\r\n    text-align: center;\r\n  }\r\n\r\n  .footer h1{\r\n    margin: 0;\r\n  }\r\n\r\n  .footer-social{\r\n    position: relative;\r\n    display: inline;\r\n    margin-left: 2%;\r\n    margin-right: 2%;\r\n  }\r\n\r\n  .social-icon{\r\n    width: 4%;\r\n  }\r\n\r\n  .nav{\r\n    background-color: white;\r\n    width: 100%;\r\n    text-align: center;\r\n    position: absolute;\r\n    top: 0%;\r\n    display: flex;\r\n    height: 100%;\r\n  }\r\n\r\n  .header{\r\n    position: absolute;\r\n    top: 0%;\r\n    width: 100%;\r\n    height: 7%;\r\n    z-index: 2;\r\n    font-family: 'Roboto', sans-serif;\r\n  }\r\n\r\n  .header hr{\r\n    bottom: 0%;\r\n    border: 0.1rem solid black;\r\n    position: absolute;\r\n    width: -webkit-fill-available;\r\n    margin: 0%;\r\n    z-index: 2;\r\n  }\r\n\r\n  .nav-button{\r\n    font-family: Roboto;\r\n    font-weight: bolder;\r\n    position: absolute;\r\n    margin-left: 25%;\r\n    margin-right: 25%;\r\n    width: 50%;\r\n    height: 50%;\r\n    top: 25%;\r\n    bottom: 25%;\r\n  }\r\n\r\n  .nav a{\r\n    color: black;\r\n    text-decoration: none;\r\n    position: relative;\r\n    width: 15%;\r\n    height: 101%;\r\n    margin-left: 2%;\r\n    margin-right: 2%;\r\n  }\r\n\r\n  .nav a:hover{\r\n    color: #C4C4C4;\r\n    border-bottom: 0.3rem solid #C4C4C4;\r\n    z-index: 3;\r\n  }\r\n\r\n  .icons-1{\r\n    width: 5%;\r\n    height: 5%;\r\n    fill: #C4C4C4;\r\n  }\r\n\r\n  .image-horizontal{\r\n    width: 100%;\r\n    position: relative;\r\n  }\r\n\r\n  .image-horizontal img{\r\n    max-height: 12rem;\r\n    width: 100%;\r\n    position: relative;\r\n  }\r\n\r\n  .another-container{\r\n    display: contents;\r\n    position: relative;\r\n  }", ""]);
+exports.push([module.i, "p{\r\n  font-size: 0.8rem;\r\n  margin-bottom: 0;\r\n  margin-block: 0;\r\n}\r\n\r\nmeter{\r\n  width: 100%;\r\n  border-radius: 2px;\r\n}\r\n\r\n.fondo-2{\r\n    background-color: white;\r\n    position: absolute;\r\n    width: 100%;\r\n}\r\n\r\n.container-position{\r\n    position: relative;\r\n    width: 100%;\r\n    display: contents;\r\n  }\r\n\r\n.footer{\r\n    background-color: black;\r\n    background-image: url(" + escape(__webpack_require__(/*! ../../../../public/images/fondo-footer-2.png */ "./public/images/fondo-footer-2.png")) + ");\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n    background-position-x: center;\r\n    height: 7rem;\r\n    color: white;\r\n    display: flex;\r\n    text-align: center;\r\n  }\r\n\r\n  .footer .content{\r\n    margin-top: auto;\r\n    margin-bottom: auto;\r\n    text-align: center;\r\n  }\r\n\r\n  .footer h1{\r\n    margin: 0;\r\n  }\r\n\r\n  .footer-social{\r\n    position: relative;\r\n    display: inline;\r\n    margin-left: 2%;\r\n    margin-right: 2%;\r\n  }\r\n\r\n  .footer2{\r\n    position: relative;\r\n  }\r\n\r\n  .social-icon{\r\n    width: 4%;\r\n  }\r\n\r\n  .nav{\r\n    background-color: white;\r\n    width: 100%;\r\n    text-align: center;\r\n    position: absolute;\r\n    top: 0%;\r\n    display: flex;\r\n    height: 100%;\r\n  }\r\n\r\n  .header{\r\n    position: absolute;\r\n    top: 0%;\r\n    width: 100%;\r\n    height: 3.5rem;\r\n    z-index: 2;\r\n    font-family: 'Roboto', sans-serif;\r\n    font-size: 1rem;\r\n  }\r\n\r\n  .header hr{\r\n    bottom: 0%;\r\n    border: 0.1rem solid black;\r\n    position: absolute;\r\n    width: -webkit-fill-available;\r\n    margin: 0%;\r\n    z-index: 2;\r\n  }\r\n\r\n  .nav-button{\r\n    font-family: Roboto;\r\n    font-weight: bolder;\r\n    height: 100%;\r\n    width: 100%;\r\n    display: table;\r\n  }\r\n\r\n  .nav-button div{\r\n    display: table-cell;\r\n    vertical-align: middle;\r\n  }\r\n\r\n  .nav a{\r\n    color: black;\r\n    text-decoration: none;\r\n    position: relative;\r\n    width: 15%;\r\n    height: 101%;\r\n    margin-left: 2%;\r\n    margin-right: 2%;\r\n  }\r\n\r\n  .nav a:hover{\r\n    color: #C4C4C4;\r\n    border-bottom: 0.3rem solid #C4C4C4;\r\n    z-index: 3;\r\n  }\r\n\r\n  .icons-1{\r\n    width: 5%;\r\n    fill: #C4C4C4;\r\n  }\r\n\r\n  .image-horizontal{\r\n    width: 100%;\r\n    position: relative;\r\n  }\r\n\r\n  .image-horizontal img{\r\n    max-height: 13rem;\r\n    width: 100%;\r\n    position: relative;\r\n  }\r\n\r\n  .another-container{\r\n    display: contents;\r\n    position: relative;\r\n  }\r\n\r\n  .boton{\r\n    color: white;\r\n    background-color: black;\r\n    border-color: black;\r\n    font-size: 0.6rem;\r\n  }\r\n\r\n  .subtitulo{\r\n    color: #C4C4C4;\r\n  }\r\n\r\n  meter::-webkit-meter-optimum-value {\r\n    box-shadow: 0 5px 5px -5px #999 inset;\r\n    border-radius: 2px;\r\n    background-image: linear-gradient(\r\n      black 0%, \r\n      black 100%\r\n    );\r\n  }\r\n\r\n  meter::-webkit-meter-even-less-good-value {\r\n    box-shadow: 0 5px 5px -5px #999 inset;\r\n    border-radius: 2px;\r\n    background-image: linear-gradient(\r\n      #C4C4C4 0%, \r\n      #C4C4C4 20%\r\n    );\r\n  }\r\n\r\n  meter::-webkit-meter-suboptimum-value {\r\n    box-shadow: 0 5px 5px -5px #999 inset;\r\n    border-radius: 2px;\r\n    background-image: linear-gradient(\r\n      115deg, \r\n      black 0%,\r\n      black 20%,\r\n      #C4C4C4 20%, \r\n      #C4C4C4 40%,\r\n      black 40%,\r\n      black 60%,\r\n      #C4C4C4 60%,\r\n      #C4C4C4 80%,\r\n      black 80%,\r\n      black 100%\r\n    );\r\n  }\r\n\r\n  ", ""]);
 
 // exports
 
@@ -67096,7 +67096,6 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 
 
-var redes = JSON.parse('{"Facebook":"https://www.facebook.com/leon.alcides","Twitter":"https://twitter.com/alcidesleon","Instagram":"https://www.instagram.com/leitorino/","Linkedin":"https://www.linkedin.com/in/alcides-leon-a7495713b/"}');
 
 var About =
 /*#__PURE__*/
@@ -67115,7 +67114,6 @@ function (_React$Component) {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "fondo-2"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_header_js__WEBPACK_IMPORTED_MODULE_2__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_info_js__WEBPACK_IMPORTED_MODULE_1__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_footer_js__WEBPACK_IMPORTED_MODULE_3__["default"], {
-        redes: redes,
         type: "normal"
       }));
     }
@@ -67289,47 +67287,57 @@ function (_React$Component) {
   }, {
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "footer fixed-bottom"
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "content"
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("center", null, this.state.redes.Facebook && react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "footer-social"
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-        href: this.state.redes.Facebook,
-        target: "_blank"
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-        src: _public_images_facebook_png__WEBPACK_IMPORTED_MODULE_2___default.a,
-        className: "social-icon",
-        alt: "icono de facebook"
-      }))), this.state.redes.Twitter && react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "footer-social"
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-        href: this.state.redes.Twitter,
-        target: "_blank"
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-        src: _public_images_twitter_png__WEBPACK_IMPORTED_MODULE_3___default.a,
-        className: "social-icon",
-        alt: "icono de twitter"
-      }))), this.state.redes.Instagram && react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "footer-social"
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-        href: this.state.redes.Instagram,
-        target: "_blank"
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-        src: _public_images_instagram_png__WEBPACK_IMPORTED_MODULE_5___default.a,
-        className: "social-icon",
-        alt: "icono de instagram"
-      }))), this.state.redes.Linkedin && react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "footer-social"
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-        href: this.state.redes.Linkedin,
-        target: "_blank"
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-        src: _public_images_linkedin_png__WEBPACK_IMPORTED_MODULE_4___default.a,
-        className: "social-icon",
-        alt: "icono de linkedin"
-      }))))));
+      function footerContent(state) {
+        return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+          className: "content"
+        }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("center", null, state.redes.Facebook && react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+          className: "footer-social"
+        }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+          href: state.redes.Facebook,
+          target: "_blank"
+        }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+          src: _public_images_facebook_png__WEBPACK_IMPORTED_MODULE_2___default.a,
+          className: "social-icon",
+          alt: "icono de facebook"
+        }))), state.redes.Twitter && react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+          className: "footer-social"
+        }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+          href: state.redes.Twitter,
+          target: "_blank"
+        }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+          src: _public_images_twitter_png__WEBPACK_IMPORTED_MODULE_3___default.a,
+          className: "social-icon",
+          alt: "icono de twitter"
+        }))), state.redes.Instagram && react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+          className: "footer-social"
+        }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+          href: state.redes.Instagram,
+          target: "_blank"
+        }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+          src: _public_images_instagram_png__WEBPACK_IMPORTED_MODULE_5___default.a,
+          className: "social-icon",
+          alt: "icono de instagram"
+        }))), state.redes.Linkedin && react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+          className: "footer-social"
+        }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+          href: state.redes.Linkedin,
+          target: "_blank"
+        }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+          src: _public_images_linkedin_png__WEBPACK_IMPORTED_MODULE_4___default.a,
+          className: "social-icon",
+          alt: "icono de linkedin"
+        })))));
+      }
+
+      if (this.props.type == "normal") {
+        return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+          className: "footer footer2"
+        }, footerContent(this.state));
+      } else {
+        return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+          className: "footer fixed-bottom"
+        }, footerContent(this.state));
+      }
     }
   }]);
 
@@ -67395,23 +67403,23 @@ function (_React$Component) {
         to: "/"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "nav-button"
-      }, "Inicio")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "Inicio"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
         to: "about"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "nav-button"
-      }, "Sobre Mi")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "Sobre Mi"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
         to: "asd"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "nav-button"
-      }, "Proyectos")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "Proyectos"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+        to: "contacto"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "nav-button"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "Contacto"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
         to: "asd"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "nav-button"
-      }, "Contacto")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-        to: "asd"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "nav-button"
-      }, "Buscador"))));
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "Buscador")))));
     }
   }]);
 
@@ -67570,7 +67578,10 @@ function (_React$Component) {
       loading: true,
       error: null,
       image: [],
-      data: []
+      data: [],
+      habilidades: [],
+      cursos: [],
+      estudios: []
     });
 
     _defineProperty(_assertThisInitialized(_this), "fetchData",
@@ -67578,7 +67589,7 @@ function (_React$Component) {
     _asyncToGenerator(
     /*#__PURE__*/
     _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {
-      var response, image, _response, data;
+      var response, image, _response, habilidades, _response2, cursos, _response3, estudios, _response4, data;
 
       return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
         while (1) {
@@ -67591,7 +67602,7 @@ function (_React$Component) {
 
               _context.prev = 1;
               _context.next = 4;
-              return fetch('http://127.0.0.1:8888/api/image/1');
+              return fetch('http://127.0.0.1:8888/api/image/get');
 
             case 4:
               response = _context.sent;
@@ -67619,7 +67630,7 @@ function (_React$Component) {
             case 14:
               _context.prev = 14;
               _context.next = 17;
-              return fetch('http://127.0.0.1:8888/api/informacion/1');
+              return fetch('http://127.0.0.1:8888/api/habilidad/get');
 
             case 17:
               _response = _context.sent;
@@ -67627,11 +67638,10 @@ function (_React$Component) {
               return _response.json();
 
             case 20:
-              data = _context.sent;
+              habilidades = _context.sent;
 
               _this.setState({
-                loading: false,
-                data: data
+                habilidades: habilidades
               });
 
               _context.next = 27;
@@ -67642,19 +67652,101 @@ function (_React$Component) {
               _context.t1 = _context["catch"](14);
 
               _this.setState({
-                loading: false,
                 error: _context.t1
               });
 
             case 27:
-              console.log(_this.state.data);
+              _context.prev = 27;
+              _context.next = 30;
+              return fetch('http://127.0.0.1:8888/api/curso/get');
 
-            case 28:
+            case 30:
+              _response2 = _context.sent;
+              _context.next = 33;
+              return _response2.json();
+
+            case 33:
+              cursos = _context.sent;
+
+              _this.setState({
+                cursos: cursos
+              });
+
+              _context.next = 40;
+              break;
+
+            case 37:
+              _context.prev = 37;
+              _context.t2 = _context["catch"](27);
+
+              _this.setState({
+                error: _context.t2
+              });
+
+            case 40:
+              _context.prev = 40;
+              _context.next = 43;
+              return fetch('http://127.0.0.1:8888/api/estudio/get');
+
+            case 43:
+              _response3 = _context.sent;
+              _context.next = 46;
+              return _response3.json();
+
+            case 46:
+              estudios = _context.sent;
+
+              _this.setState({
+                estudios: estudios
+              });
+
+              _context.next = 53;
+              break;
+
+            case 50:
+              _context.prev = 50;
+              _context.t3 = _context["catch"](40);
+
+              _this.setState({
+                error: _context.t3
+              });
+
+            case 53:
+              _context.prev = 53;
+              _context.next = 56;
+              return fetch('http://127.0.0.1:8888/api/informacion/get');
+
+            case 56:
+              _response4 = _context.sent;
+              _context.next = 59;
+              return _response4.json();
+
+            case 59:
+              data = _context.sent;
+
+              _this.setState({
+                loading: false,
+                data: data
+              });
+
+              _context.next = 66;
+              break;
+
+            case 63:
+              _context.prev = 63;
+              _context.t4 = _context["catch"](53);
+
+              _this.setState({
+                loading: false,
+                error: _context.t4
+              });
+
+            case 66:
             case "end":
               return _context.stop();
           }
         }
-      }, _callee, null, [[1, 11], [14, 24]]);
+      }, _callee, null, [[1, 11], [14, 24], [27, 37], [40, 50], [53, 63]]);
     })));
 
     return _this;
@@ -67671,7 +67763,7 @@ function (_React$Component) {
       return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "container-position"
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "row m-0"
+        className: "row ml-0 mr-0 mt-5"
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "col-12 text-left pt-5 mb-2 m-0"
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", null, "Sobre", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), "Alcides Le\xF3n"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -67681,9 +67773,13 @@ function (_React$Component) {
         src: this.state.image.about,
         alt: "yo horizontal"
       })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "row m-0"
+        className: "row ml-0 mr-0 mt-4 mb-3"
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "col-6"
+        className: "col-md-6 col-sm-12"
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "col-12 text-center"
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "row mb-2"
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "col-12 text-center"
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
@@ -67692,10 +67788,32 @@ function (_React$Component) {
         alt: "icono de habilidades"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "d-inline ml-2"
-      }, "Habilidades"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "col-6"
+      }, "Habilidades"))), this.state.habilidades.map(function (habilidad) {
+        return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+          className: "row",
+          key: habilidad.id
+        }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+          className: "col-2 offset-2 text-center"
+        }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+          src: habilidad.img,
+          alt: "logo de " + habilidad.nombre,
+          className: "img-fluid w-75 h-75"
+        })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+          className: "col-3"
+        }, habilidad.nombre), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+          className: "col-3"
+        }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meter", {
+          min: "0",
+          max: "5",
+          low: "2",
+          high: "4",
+          optimum: "5",
+          value: habilidad.valor
+        })));
+      }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "col-md-6 col-sm-12"
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "col-12 text-center"
+        className: "col-12 text-center mb-2"
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
         src: _public_iconos_id_card_regular_svg__WEBPACK_IMPORTED_MODULE_4___default.a,
         className: "icons-1 d-inline",
@@ -67704,29 +67822,57 @@ function (_React$Component) {
         className: "d-inline ml-2"
       }, "Sobre Mi")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "col-12 text-justify"
-      }, this.state.data.mensaje))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "row m-0"
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, this.state.data.mensaje)))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "row ml-0 mr-0 mb-3 mt-3"
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "col-6"
+        className: "col-md-6 col-sm-12"
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "col-12 text-center"
+        className: "col-12 text-center mb-2"
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
         src: _public_iconos_leanpub_brands_svg__WEBPACK_IMPORTED_MODULE_3___default.a,
         className: "icons-1 d-inline",
         alt: "icono de cursos"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "d-inline ml-2"
-      }, "Cursos"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "col-6"
+      }, "Cursos")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "col-12"
+      }, this.state.cursos.map(function (curso) {
+        return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+          className: "row mb-2",
+          key: curso.id
+        }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+          className: "col-7 offset-2"
+        }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", null, curso.titulo)), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+          className: "col-3"
+        }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+          href: curso.link,
+          target: "_blank",
+          className: "btn boton"
+        }, "Ver Mas")));
+      }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "col-md-6 col-sm-12"
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "col-12 text-center"
+        className: "col-12 text-center mb-2"
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
         src: _public_iconos_graduation_cap_solid_svg__WEBPACK_IMPORTED_MODULE_2___default.a,
         className: "icons-1 d-inline",
         alt: "icono de estudios"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "d-inline ml-2"
-      }, "Estudios")))));
+      }, "Estudios")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "col-12"
+      }, this.state.estudios.map(function (estudio) {
+        return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+          className: "row mb-2",
+          key: estudio.id
+        }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+          className: "col-4 offset-1 text-center"
+        }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, estudio.nivel), estudio.titulo && react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, estudio.titulo), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+          className: "subtitulo"
+        }, estudio.inicio, "-", estudio.fin)), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+          className: "col-6 text-center"
+        }, estudio.instituto));
+      })))));
     }
   }]);
 

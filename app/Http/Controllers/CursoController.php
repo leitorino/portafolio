@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Curso;
 
 class CursoController extends Controller
 {
@@ -45,7 +46,8 @@ class CursoController extends Controller
      */
     public function show($id)
     {
-        //
+        $data = json_encode(Curso::select('id','titulo','link')->get());
+        return $data;
     }
 
     /**

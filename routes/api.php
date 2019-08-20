@@ -26,3 +26,9 @@ Route::apiResource('image', 'ImagenController');
 Route::apiResource('redes', 'redesController');
 
 Route::apiResource('informacion', 'InformacionController');
+
+Route::apiResource('habilidad', 'HabilidadController');
+
+Route::apiResource('curso', 'CursoController');
+
+Route::apiResource('estudio', 'EstudioController');

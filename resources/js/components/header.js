@@ -8,30 +8,39 @@ class Header extends React.Component {
             <div className="header">
                 <hr></hr>
                 <div className="nav">
-                    
                     <Link to="/">
                         <div className="nav-button">
-                            Inicio
+                            <div>
+                                Inicio
+                            </div>
                         </div>
                     </Link>
                     <Link to="about">
                         <div className="nav-button">
-                            Sobre Mi
+                            <div>
+                                Sobre Mi
+                            </div>
                         </div>
                     </Link>
                     <Link to="asd">
                         <div className="nav-button">
-                            Proyectos
+                            <div>
+                                Proyectos
+                            </div>
+                        </div>
+                    </Link>
+                    <Link to="contacto">
+                        <div className="nav-button">
+                            <div>
+                                Contacto
+                            </div>
                         </div>
                     </Link>
                     <Link to="asd">
                         <div className="nav-button">
-                            Contacto
-                        </div>
-                    </Link>
-                    <Link to="asd">
-                        <div className="nav-button">
-                            Buscador
+                            <div>
+                                Buscador
+                            </div>
                         </div>
                     </Link>
                 </div>

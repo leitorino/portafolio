@@ -26,43 +26,58 @@ class Footer extends React.Component {
         }
 
     }
-
+    
     render() { 
-        return(
-            <div className="footer fixed-bottom">
-                <div className="content">
-                    <center>
-                        {(this.state.redes.Facebook) && (
-                            <div className="footer-social">
-                                <a href={this.state.redes.Facebook} target="_blank"> 
-                                    <img src={facebookicon} className="social-icon" alt="icono de facebook"/>
-                                </a>
-                            </div>
-                        )}
-                        {(this.state.redes.Twitter) && (
+
+        function footerContent(state) {
+            return(
+            <div className="content">
+                <center>
+                    {(state.redes.Facebook) && (
                         <div className="footer-social">
-                            <a href={this.state.redes.Twitter} target="_blank">
-                                <img src={twittericon} className="social-icon" alt="icono de twitter"/>
-                            </a>
-                        </div>)}
-                        {(this.state.redes.Instagram) && (
-                        <div  className="footer-social">
-                            <a href={this.state.redes.Instagram} target="_blank">
-                                <img src={instagramicon} className="social-icon" alt="icono de instagram"/>
+                            <a href={state.redes.Facebook} target="_blank"> 
+                                <img src={facebookicon} className="social-icon" alt="icono de facebook"/>
                             </a>
                         </div>
-                        )}
-                        {(this.state.redes.Linkedin) && (
-                        <div  className="footer-social">
-                            <a href={this.state.redes.Linkedin} target="_blank">
-                                <img src={linkedinicon} className="social-icon" alt="icono de linkedin"/>
-                            </a>
-                        </div>
-                        )}
-                    </center>
-                </div>
+                    )}
+                    {(state.redes.Twitter) && (
+                    <div className="footer-social">
+                        <a href={state.redes.Twitter} target="_blank">
+                            <img src={twittericon} className="social-icon" alt="icono de twitter"/>
+                        </a>
+                    </div>)}
+                    {(state.redes.Instagram) && (
+                    <div  className="footer-social">
+                        <a href={state.redes.Instagram} target="_blank">
+                            <img src={instagramicon} className="social-icon" alt="icono de instagram"/>
+                        </a>
+                    </div>
+                    )}
+                    {(state.redes.Linkedin) && (
+                    <div  className="footer-social">
+                        <a href={state.redes.Linkedin} target="_blank">
+                            <img src={linkedinicon} className="social-icon" alt="icono de linkedin"/>
+                        </a>
+                    </div>
+                    )}
+                </center>
             </div>
-        );
+            );
+        }
+
+        if(this.props.type=="normal"){
+            return(
+            <div className="footer footer2">
+                {footerContent(this.state)}
+            </div>
+            );
+        }else{
+            return(
+            <div className="footer fixed-bottom">
+                {footerContent(this.state)}
+            </div>
+            );
+        }
     }
 }
 

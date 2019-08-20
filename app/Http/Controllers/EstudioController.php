@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Estudio;
 
 class EstudioController extends Controller
 {
@@ -45,7 +46,8 @@ class EstudioController extends Controller
      */
     public function show($id)
     {
-        //
+        $data = json_encode(Estudio::select('id','nivel','instituto','titulo','inicio','fin')->get());
+        return $data;
     }
 
     /**

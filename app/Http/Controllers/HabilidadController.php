@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Habilidad;
 
 class HabilidadController extends Controller
 {
@@ -45,7 +46,8 @@ class HabilidadController extends Controller
      */
     public function show($id)
     {
-        //
+        $data = json_encode(Habilidad::select('id','img','nombre','valor')->get());
+        return $data;
     }
 
     /**
