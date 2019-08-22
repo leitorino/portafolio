@@ -6318,7 +6318,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Revalia|Roboto&display=swap);", ""]);
 
 // module
-exports.push([module.i, "body {\r\n    background-color: #C4C4C4 !important;\r\n    margin: 0;\r\n    padding: 0;\r\n    font-family: 'Revalia', cursive;\r\n  }\r\n\r\n  .particulas{\r\n    z-index: 1;\r\n    width: 100%;\r\n    height: 110%;\r\n  }\r\n\r\n  .titulo{\r\n    z-index: 2;\r\n    font-family: Revalia;\r\n    position: absolute;\r\n    text-align: center;\r\n    width: 100%;\r\n  }\r\n\r\n  .contenedor{\r\n    display: flex;\r\n    position: absolute;\r\n    vertical-align: middle;\r\n    align-items: center;\r\n    height: 75%;\r\n    width: 98%;\r\n  }\r\n\r\n\r\n  .image-principal{\r\n    position: absolute;\r\n    width: 60%;\r\n    left: 0%;\r\n    margin-left: 10%;\r\n    -webkit-filter: brightness(80%);\r\n            filter: brightness(80%);\r\n    box-shadow: 0px 0px 1rem 0.1rem rgba(0,0,0,0.75);\r\n    border-radius: 2%;\r\n  }\r\n\r\n  .bajada{\r\n    position: relative;\r\n    -webkit-animation-duration: 2s;\r\n            animation-duration: 2s;\r\n    -webkit-animation-name: caida;\r\n            animation-name: caida;\r\n  }\r\n\r\n  .subida{\r\n    position: relative; \r\n    -webkit-animation-duration: 2s; \r\n            animation-duration: 2s;\r\n    -webkit-animation-name: subida;\r\n            animation-name: subida;\r\n  }\r\n\r\n  @-webkit-keyframes caida {\r\n    from {\r\n      top: -100%;\r\n      height: 100%;\r\n    }\r\n  \r\n    to {\r\n      height: 180%;\r\n      top: 0%;\r\n    }\r\n  }\r\n\r\n  @keyframes caida {\r\n    from {\r\n      top: -100%;\r\n      height: 100%;\r\n    }\r\n  \r\n    to {\r\n      height: 180%;\r\n      top: 0%;\r\n    }\r\n  }\r\n\r\n  @-webkit-keyframes subida {\r\n    from {\r\n      bottom: -100%;\r\n      height: 100%;\r\n    }\r\n  \r\n    to {\r\n      height: 180%;\r\n      bottom: 0%;\r\n    }\r\n  }\r\n\r\n  @keyframes subida {\r\n    from {\r\n      bottom: -100%;\r\n      height: 100%;\r\n    }\r\n  \r\n    to {\r\n      height: 180%;\r\n      bottom: 0%;\r\n    }\r\n  }\r\n ", ""]);
+exports.push([module.i, "body {\r\n    background-color: #C4C4C4 !important;\r\n    margin: 0;\r\n    padding: 0;\r\n    font-family: 'Revalia', cursive;\r\n  }\r\n\r\n  .particulas{\r\n    width: 100%;\r\n    height: 100%;\r\n    position: absolute;\r\n  }\r\n\r\n  .titulo{\r\n    font-family: Revalia;\r\n    display: contents;\r\n  }\r\n\r\n  .contenedor{\r\n    display: flex;\r\n    position: absolute;\r\n    vertical-align: middle;\r\n    align-items: center;\r\n    height: 75%;\r\n    width: 100%;\r\n    top: 3.5rem;\r\n    align-content: center;\r\n  }\r\n\r\n\r\n  .image-principal{\r\n    max-width: 15rem;\r\n    max-height: 15rem;\r\n    -webkit-filter: brightness(80%);\r\n            filter: brightness(80%);\r\n    box-shadow: 0px 0px 1rem 0.1rem rgba(0,0,0,0.75);\r\n    border-radius: 2%;\r\n  }\r\n\r\n  .image-alineacion{\r\n    text-align: right\r\n  }\r\n\r\n  @media only screen and (max-width: 700px) {\r\n    .image-alineacion{\r\n      text-align: center\r\n    }\r\n  }\r\n\r\n  .bajada{\r\n    position: relative;\r\n    -webkit-animation-duration: 2s;\r\n            animation-duration: 2s;\r\n    -webkit-animation-name: caida;\r\n            animation-name: caida;\r\n  }\r\n\r\n  .subida{\r\n    position: relative; \r\n    -webkit-animation-duration: 2s; \r\n            animation-duration: 2s;\r\n    -webkit-animation-name: subida;\r\n            animation-name: subida;\r\n  }\r\n\r\n  @-webkit-keyframes caida {\r\n    from {\r\n      top: -100%;\r\n      height: 100%;\r\n    }\r\n  \r\n    to {\r\n      height: 180%;\r\n      top: 0%;\r\n    }\r\n  }\r\n\r\n  @keyframes caida {\r\n    from {\r\n      top: -100%;\r\n      height: 100%;\r\n    }\r\n  \r\n    to {\r\n      height: 180%;\r\n      top: 0%;\r\n    }\r\n  }\r\n\r\n  @-webkit-keyframes subida {\r\n    from {\r\n      bottom: -100%;\r\n      height: 100%;\r\n    }\r\n  \r\n    to {\r\n      height: 180%;\r\n      bottom: 0%;\r\n    }\r\n  }\r\n\r\n  @keyframes subida {\r\n    from {\r\n      bottom: -100%;\r\n      height: 100%;\r\n    }\r\n  \r\n    to {\r\n      height: 180%;\r\n      bottom: 0%;\r\n    }\r\n  }\r\n ", ""]);
 
 // exports
 
@@ -68048,7 +68048,7 @@ function (_React$Component) {
         return 'Loading...';
       }
 
-      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "contenedor"
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "particulas"
@@ -68109,20 +68109,24 @@ function (_React$Component) {
       })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "titulo"
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "container"
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "row"
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "col-4 offset-2 text-right"
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "subida"
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", null, this.state.data.saludo), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h4", null, this.state.data.identificacion), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h6", null, this.state.data.introduccion))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "col-4 "
+        className: "col-md-3 offset-md-2 col-sm-12"
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "bajada"
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "image-alineacion"
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
         className: "image-principal",
         src: this.state.image.inicio,
         alt: "yop"
-      })))))));
+      })))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "col-md-6 col-sm-12 text-left p-4"
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "subida"
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", null, this.state.data.saludo), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h4", null, this.state.data.identificacion), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h6", null, this.state.data.introduccion)))))));
     }
   }]);
 

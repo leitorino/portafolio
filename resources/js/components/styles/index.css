@@ -8,17 +8,14 @@ body {
   }
 
   .particulas{
-    z-index: 1;
     width: 100%;
-    height: 110%;
+    height: 100%;
+    position: absolute;
   }
 
   .titulo{
-    z-index: 2;
     font-family: Revalia;
-    position: absolute;
-    text-align: center;
-    width: 100%;
+    display: contents;
   }
 
   .contenedor{
@@ -27,18 +24,28 @@ body {
     vertical-align: middle;
     align-items: center;
     height: 75%;
-    width: 98%;
+    width: 100%;
+    top: 3.5rem;
+    align-content: center;
   }
 
 
   .image-principal{
-    position: absolute;
-    width: 60%;
-    left: 0%;
-    margin-left: 10%;
+    max-width: 15rem;
+    max-height: 15rem;
     filter: brightness(80%);
     box-shadow: 0px 0px 1rem 0.1rem rgba(0,0,0,0.75);
     border-radius: 2%;
+  }
+
+  .image-alineacion{
+    text-align: right
+  }
+
+  @media only screen and (max-width: 700px) {
+    .image-alineacion{
+      text-align: center
+    }
   }
 
   .bajada{
